@@ -14,8 +14,7 @@ import tut3 from "../../../assets/img/picthree.png"
 import {LoadingButton} from "@mui/lab";
 
 import { useState, useEffect } from 'react';
-import * as Yup from "yup"
-import { Formik, Form, Field } from 'formik';
+
 import {FormControl, InputLabel, FormControlLabel, InputBase, Switch, TextField, Radio, RadioGroup, Input } from "@mui/material";
 
 
@@ -349,14 +348,7 @@ const BoxContainer= ({reviews, students, posts, offers}) => {
                  <h2> Contact Us! </h2>
                  <p>Send a message request and let us know what you feel</p>
              </div>
-             <Formik
-               initialValues={{
-                firstName: '',
-                lastName: '',
-                email: '',
-              }}
-           
-             >
+            
                 {({errors, touched}) => (
 
                     <FormControl  sx={{width: '100%'}}>
@@ -383,7 +375,7 @@ const BoxContainer= ({reviews, students, posts, offers}) => {
 
                 )}
             
-             </Formik>
+           
                          
                 </div>
              </div>
