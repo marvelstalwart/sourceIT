@@ -1,0 +1,32 @@
+
+ 
+
+
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+    
+ }
+
+ .signup {
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+
+
+    }
+
+
+    
+.login-text p {
+    margin-top: 10px;
+}
+.login-text .sign-up {
+
+    text-decoration: none;
+    color: rgb(6, 105, 185);
+    font-weight: 700;
+}

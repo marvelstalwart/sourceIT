@@ -1,0 +1,59 @@
+.overview-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.overview-content {
+  
+  padding-top: 5rem;   
+  text-align: center;
+   font-family:'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 15px;
+   max-width: 15rem;
+   color: white;
+ 
+}
+
+.overview-content h2 {
+  font-size: 40px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 120px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  10% { border-color: orange; }
+}
+
+.overview-content .overview-text {
+    margin-top: 10px;
+  margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+
+}
+
+.overview-cover {
+
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+.overview-highlights {
+ background-size: cover;
+ height: 40rem;
+ margin-bottom: 15px;
+  background-image: url("C:\Users\USER 1\Desktop\Project\project\src\assets\img\industry.jpg");
+}

@@ -1,0 +1,290 @@
+.review-box {
+    margin: 4px 0px 5px 0px;
+}
+.review-container, .advert-main-container {
+    border-radius: 4px;
+    
+       padding: 5px;
+       display: flex;
+      
+       justify-content: center;
+   
+}
+
+.review-content-header {
+display: flex;
+align-items: center;
+margin-bottom: 4px;
+}
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.review-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+.review-content, .advert-box {
+    position: relative;
+    
+    border-radius: 10px;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    background-color: white;
+    box-shadow: rgba(108, 142, 174, 0.2) 0px 8px 24px;
+ 
+    
+}
+
+.card-action {
+    height: 3rem;
+}
+.review-content-container {}
+
+.review-content-header h3 {
+
+    margin-left: 4px;
+}
+
+.post-rating {
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.review-side-content {
+    padding: 10px;
+    
+}
+
+
+
+.review-footer .review-comments {
+    display: flex;
+    color:rgb(122, 122, 122);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.review-content-title  {
+    margin: 15px 0px;
+    width: 100%  !important;
+    
+}
+.review-content-title h3 {
+    font-weight: 500;
+    
+    margin-bottom: 5px;
+}
+.review-content-text  {
+   margin: 10px 0px;
+    
+    
+} 
+.review-content-text p {
+    font-size: 13px;
+}
+
+.review-author {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+   color: rgb(56,107,237);
+   justify-content: space-between;
+}
+
+.review-author .star {
+    color:rgb(122, 122, 122);
+    display: flex;
+    align-items: center;
+}
+.view-more button {
+    background: none;
+    border: 0px;
+    color: blueviolet;
+   
+}
+.view-more button p {
+
+    font-weight: 400;
+}
+
+.review-content .review-content-header .avatar {
+        
+    width: 70px !important;
+    height: 70px !important; 
+     border-radius: 17px !important;
+ }
+ .flex-main-container {
+    display: flex;
+    justify-content: center;
+
+}
+/* .tutorial-container .plan-1, .tutorial-container .plan-2,.tutorial-container .plan-3 {
+    display: flex;
+
+}   */
+.tutorial-container .section-1,.tutorial-container .section-2 {
+    width: 100%;
+    
+}
+
+.tutorial-container .section-img img {
+    
+    max-height:15rem;
+    
+  }
+ 
+/* .tutorial-container .plan1,.tutorial-container .plan2, .tutorial-container .plan3 {
+    display: flex;
+    justify-content: center;
+} */
+
+
+.contact-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.contact-form-container {
+    
+    background: white;
+width: 22rem;
+ margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.contact-header h2, .contact-header p {
+    line-height: 1.6rem;
+}
+.contact-header p {
+    font-size: 12px;
+    font-style: italic;
+}
+.contact-items {
+    padding: 20px;
+}
+@media  screen and (min-width: 767px) {
+
+    .review-content,.advert-box {
+       
+        height: 6.5rem;
+       width: 40rem;
+        position: relative;
+    }
+
+    
+    
+    .contact-form-container {
+      
+        display: flex;
+        align-items: center;
+        padding: auto;
+        width: 45rem;
+        padding-bottom: none;
+    }
+    .contact-form-container img {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .contact-img, .contact-items {
+       width: 50%;
+      
+    }
+    .review-content .review-content-header .review-content .review-content-header .avatar {
+        
+        width: 90px !important;
+        height: 90px !important; 
+         border-radius: 17px !important;
+     }
+     .avatar2 {
+        width: 70px !important;
+        height: 70px !important; 
+     }
+     .main-container, 
+.advert-main-container, .student-list-container, .tutorial-container {
+    width: 95%;
+}
+}
+@media  screen and (min-width: 991px) {
+
+    .tutorial-container .section-img img {
+    
+        max-height:22rem;
+        
+      }
+      .contact-header h2 {
+          font-weight: 900;
+          font-size: 35px;
+      }
+      .contact-header p {
+          line-height: 4.5rem;
+      }
+      .contact-form-container {
+        width: 65rem;
+    }
+    .tutorial-container .plan-container {
+        display: flex;
+        flex-direction: row-reverse;   
+
+    }
+.tutorial-container .plan2-container{
+    display: flex;
+}
+    .tutorial-container .section-1, .tutorial-container .section-2 {
+        width: 50%;
+    }
+    .review-content, .advert-box {
+       
+        
+       width: 50rem;
+        
+    }
+    
+    .review-content .review-content-header .avatar {
+        width: 90px !important;
+        height: 95px !important; 
+         border-radius: 17px !important;
+     }
+      
+}
+
+
+
+@media  screen and (min-width: 1100px) {
+
+
+    .review-content, .advert-box {
+        
+        
+        width:70rem;
+        
+    }
+   
+    .review-container {
+       
+        border-radius: 4px;
+        
+           padding: 5px;
+           display: flex;
+          
+           justify-content: center;
+       
+    }
+    .review-content .review-content-header .avatar {
+        width: 90px !important;
+        height: 95px !important; 
+         border-radius: 17px !important;
+     }  
+
+}

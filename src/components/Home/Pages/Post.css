@@ -1,0 +1,187 @@
+.post-container {
+    background-color: white;
+    margin: 70px 10px ;
+  
+    padding: 10px 0px 0px 0px;
+    border-radius: 8px;
+    box-shadow: rgba(108, 142, 174, 0.2) 0px 8px 24px;  
+}
+
+.post-container h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.post-container img {
+  
+    max-width: 100%;
+    
+
+}
+.company-profile  {
+ font-weight: 500;
+ color:rgb(70, 43, 129)
+}
+.company-profile:hover {
+    cursor: pointer;
+}
+.post-content {
+    padding: 10px 20px;
+}
+
+.post-icons {
+    padding: 10px;
+}
+
+.post-icons .review-icon {
+    color:rgba(75, 75, 75, 0.2);
+    margin-left: 10px;
+}
+.author-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.separator {
+
+    width: 100%;
+  
+    border: 0.5px solid grey;
+    margin-bottom: 15px;
+}
+.company-area {
+    display: flex;
+    align-items: center;
+}
+.author-description {
+
+    margin-left: 6px;
+}
+.author-description h4{
+    font-size: 20px;
+   font-weight: 400;
+}
+.company-area p {
+    font-size: 14px;
+    
+}
+
+.comment-container {
+
+    background:white;
+    padding: 10px 10px;
+    margin: 10px 10px ;
+    box-shadow: rgba(108, 142, 174, 0.2) 0px 8px 24px; 
+    border-radius: 8px;
+  
+}
+.comments-container {
+    padding: 10px;
+}
+
+.comment-author {
+    display: flex;
+    align-items: center;
+}
+
+.comment-author h4 {
+    margin-left: 5px;
+}
+.comment-box {
+    margin: 0px 40px;
+}
+.comment-icons, .post-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.comment-icons p{
+    align-items: center;
+    font-size: 13px;
+}
+
+.leave-comment {
+display: flex;
+   justify-content: center;
+    
+}
+
+.leave-comment .rating {
+    display: flex;
+    justify-content: center;
+}
+.leave-comment .rating p {
+    padding: 10px;
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+.button button {
+    box-shadow: none;
+    background:-moz-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);    
+    background:-webkit-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+    background:-o-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+    background:-ms-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+    background:radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+}
+.text-area {
+    display: block;
+}
+.text-area  textarea{
+text-decoration: none;
+   margin: 0;
+   overflow:hidden;
+   border: none;
+   width: 20rem;
+   height: 5rem;
+   outline: none;
+   resize: none;
+   height: 7rem;
+  
+
+}
+.text-area  textarea::placeholder {
+    font-weight: 200;
+}
+
+.img-cover-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media  screen and (min-width: 991px) {
+
+    .img-cover-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .post-container {
+        background-color: white;
+        margin: 70px 70px ;
+      
+        padding: 10px 0px 0px 0px;
+        }
+    
+
+
+        .post-content {
+            padding: 20px 40px;
+        }
+        .comment-container {
+            margin: 10px 50px;
+        }
+        
+}

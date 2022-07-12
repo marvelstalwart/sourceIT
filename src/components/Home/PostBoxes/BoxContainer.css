@@ -1,0 +1,129 @@
+.main-container, 
+.advert-main-container, .student-list-container, .tutorial-container {
+margin: 30px auto 10px;
+    padding: 20px 10px;
+  
+    width: 100%;
+    font-family:'Lato', sans-serif;    
+    border-radius: 2px;
+    background-color:white;
+    border: 10px solid white;
+   border-radius: 20px;
+   
+
+}
+.student-list-container .reg-text {
+    
+}
+
+.tutorial-container h1 {
+    color: #9999;
+    line-height: 1.8;
+    font-size: 3.2rem;
+
+}
+.student-list-header {
+    display: flex;
+    justify-content: center;
+}
+.student-list-content h2 {
+    text-align: center;
+}
+
+
+.tutorial-container .section-img {
+    display: flex;
+    justify-content: center;
+}
+.tutorial-container h3  {
+    color: #555555;
+}
+.tutorial-container p, .tutorial-container h3 {
+    line-height: 1.6;
+}
+
+
+.test {
+    margin: 10px;
+}
+
+.flex-main-container {
+    display: flex;
+    justify-content: center;
+}
+.std-avatar {
+    display: flex;
+    
+    justify-content: flex-start;
+}
+
+
+
+.advert-header {
+    padding: 10px 10px 0px 10px;
+}
+.advert-header h2 {
+font-size: 25px;
+}
+.reviews-container {
+   
+    margin: 10px;
+    width: 100%;
+    }
+   .reviews-pagination {
+       display: flex;
+       justify-content: center;
+       padding:20px;
+   }
+.advert-box {
+    padding: 25px;
+    margin-bottom: 10px;
+ 
+}
+.advert-box-items {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.student-list-header {
+   
+}
+.student-list-header h2 {
+    font-size: 18rem;
+
+}
+
+ .advert-header {
+
+    margin-bottom: 20px;
+}
+.student-list-header h3 {
+    font-size: 1.7rem;
+    font-weight:900;
+}
+
+.reg-text p {
+    font-size: 2rem;
+    line-height: 1.7;
+    color: #555555
+}
+.advert-box-text{
+    margin-left: 5px;
+}
+.reviews-heading h4 {
+    padding: 4px 8px;
+    width:fit-content;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 2px;
+
+    background:-moz-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);    
+      background:-webkit-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+      background:-o-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+      background:-ms-radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+      background:radial-gradient(circle at 16% 16%, rgba(92, 199, 255, 1) 0%, rgba(0, 188, 212, 1) 100%, rgba(238, 130, 238, 1) 100%, rgba(238, 130, 238, 1) 100%);
+};
+

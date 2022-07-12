@@ -1,0 +1,71 @@
+.update-container {
+    
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.upload-section {
+    display: flex;
+    justify-content: center;
+}
+.update-form{
+    align-items: center;
+    margin-top: 15rem;
+    
+}
+.edit-profile h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.button1 {
+    padding: 6px 6px !important;
+}
+.disabled {
+    position: relative;
+    
+}
+.three-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.update-button-container {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    display: flex;
+    align-items:center;
+}
+.update-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.checkboxes {
+
+    display: flex;
+}
+.form-section {
+    margin-top: 10px;
+}
+.alert {
+    z-index: 999;
+    right:0;
+   bottom: 0;
+    position: absolute;
+}
+
+.organization-form {
+    display: flex;
+    justify-content: center;
+}
+@media  screen and (min-width: 767px) {
+    .disabled {
+       
+    }
+}

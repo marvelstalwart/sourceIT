@@ -1,0 +1,83 @@
+.create-post-container {
+    margin: 50px 50px;
+
+}
+
+.create-post-body {
+ padding-top: 60px;
+}
+
+.create-post-body h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+textarea::content{
+    padding: 10px 10px;
+}
+textarea::placeholder {
+    padding: 10px 10px;
+}
+
+.create-post-button {
+    margin-top: 10px;
+   
+}
+.create-post-button button {
+    color: rgb(92, 92, 92);
+    font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.create-post-footer {
+    margin-top: 10px;
+    
+    width: 200px;
+}
+
+.create-post-footer .select {
+    font-family: 'Open Sans', sans-serif !important ;
+    background-color: white;
+    
+}
+.create-post-button button:hover {
+    background-color: rgb(236, 233, 233);
+}
+textarea {
+    padding: 2px;
+    border: none;
+    width: 100%;
+   
+    font-size: large;
+text-decoration: none;
+margin: 0;
+overflow:hidden;
+border: none;
+
+outline: none;
+resize: none;
+
+}
+
+
+.quill {
+  background-color: white;
+ 
+}
+
+.quill-edit {
+min-height: 20rem;
+
+}
+.image-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload label {
+    font-size: 13px;
+    font-weight: 450;
+    margin-right: 10px;
+}

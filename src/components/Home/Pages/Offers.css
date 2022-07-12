@@ -1,0 +1,109 @@
+.offers-main-container {
+    background-color:white;
+    margin: 70px 10px ;
+  
+    padding: 10px 0px 0px 0px;
+    border-radius: 8px;
+    box-shadow: rgba(108, 142, 174, 0.2) 0px 8px 24px; 
+
+}
+.recent-offers {
+    text-align: center;
+}
+.recent-offers h1 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.recent-offers .divider {
+height: 0.1px;
+border-bottom: 10px solid black;
+width: 20px
+}
+
+.filter {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.filter:hover {
+    cursor: pointer;
+}
+.filter h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+.filter .all {
+    margin-right: 15px;
+}
+.offers-sub-container {
+    /* background-color: rgb(250, 250, 250); */
+
+   margin-top: 15px;
+  padding: 20px 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+.line {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.line hr {
+    
+    border: none;
+    height: 1.5px;
+    width: 150px;
+    background-color: #333; /* Modern Browsers */
+}
+
+.offer {
+    background-color: white;
+    margin: 10px 10px ;
+    border-bottom: 1px solid black;
+    padding: 10px 0px 0px 0px;
+    border-radius: 8px;
+    box-shadow: rgba(108, 142, 174, 0.2) 0px 8px 24px; 
+
+
+}
+
+.offer-content {
+    padding: 10px;
+    color: rgb(47, 47, 47);
+}
+.offer-heading {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+.offer-heading h3 {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.offer-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.offer-name {
+    display: flex;
+  align-items: center;
+}
+.offer-name h5, .offer-location h5 {
+    font-weight: 400;
+  font-size: 15px;
+  margin: 4px;
+  
+}
+.apply-offer {
+    font-style: italic;
+    font-size: small;
+    padding-top: 10px;
+}
+.offer-location {
+display: flex;
+align-items: center;    
+ 
+}
