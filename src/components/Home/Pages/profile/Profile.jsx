@@ -17,7 +17,6 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { db } from '../../../../firebase';
 import ModeEditIcon from '@mui/icons-material/ModeEdit';
 import { useEffect, useState, useRef } from 'react';
-import TestCard from '../../card/TestCard';
 import SingleBox from '../../PostBoxes/SingleBox';
 import {Table, Modal, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Container, Avatar, Card } from '@mui/material';
 import RecommendModal from './RecommendModal';
