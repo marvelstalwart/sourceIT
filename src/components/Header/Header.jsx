@@ -42,9 +42,9 @@ return (
     <>
     <div className="headerWrapper">
         <div className='headerRight'>
-            <div className='logoContainer'>
+            <Link to="/"><div className='logoContainer'>
                <h2>𝓼𝓸𝓾𝓻𝓬𝓮𝓲𝓽</h2>
-            </div>
+            </div></Link>
             <div className='headerRightLinks'>
             <h4> <Link to="/">Home</Link></h4>
             {/* <h4> <a href="#how-it-works">How it Works</a></h4>
